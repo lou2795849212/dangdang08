@@ -7,7 +7,7 @@ import com.oracle.book.model.BigType;
 public interface BizTypeAdd {
 
 	boolean save(String name);
-
+   /*换行*/
 	List<BigType> findAllBigType();
    
 }
